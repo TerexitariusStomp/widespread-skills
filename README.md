@@ -1,0 +1,17 @@
+# widespread-skills
+
+Agent-facing integrations for the [Widespread](https://widespread.fyi) verified-work protocol.
+
+One repo = skill + MCP config + instructions for every coding agent:
+
+| Agent | Path |
+|---|---|
+| Devin / Claude Code / Codex / Windsurf / Cursor / Kiro / OpenClaw | `skills/widespread/SKILL.md` |
+| Claude Code marketplace | `/plugin marketplace add TerexitariusStomp/widespread-skills` |
+| skills.sh / any agent | `npx skills add TerexitariusStomp/widespread-skills` |
+| Cursor / Windsurf rules | `.cursor/rules/`, `.windsurf/rules/` |
+| Copilot | `.github/copilot-instructions.md` |
+| OpenHands / Junie / Amazon Q | `.openhands/`, `.junie/`, `amazonq/` |
+| MCP (all) | `.mcp.json` → `https://widespread-bridge.widespread.workers.dev/mcp` |
+
+MIT.
